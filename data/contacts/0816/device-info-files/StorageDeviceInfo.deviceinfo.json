@@ -1,0 +1,17 @@
+{
+  "num_physical": 1,
+  "num_emulated": 1,
+  "raw_partition": [
+    "Filesystem                          1K-blocks     Used Available Use% Mounted on",
+    "rootfs                                1705664     4900   1700764   1% /",
+    "tmpfs                                 1811380      652   1810728   1% /dev",
+    "tmpfs                                 1811380        0   1811380   0% /mnt",
+    "/dev/block/dm-0                       3799500  3401744    381372  90% /system",
+    "/dev/block/bootdevice/by-name/cache    253920      272    248408   1% /cache",
+    "/dev/block/bootdevice/by-name/dsp       12016     5048      6644  44% /dsp",
+    "/dev/block/bootdevice/by-name/modem     85968    35632     50336  42% /firmware",
+    "/dev/block/dm-1                      54498144 54023492    458268 100% /data",
+    "/dev/fuse                            54498144 54023492    458268 100% /storage/emulated",
+    "/dev/fuse                            15154528     2144  15152384   1% /storage/0795-0C16"
+  ]
+}

@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?><?xml-stylesheet type="text/xsl" href="compatibility_result.xsl"?>
+<Result start="1502853859344" end="1502860337109" start_display="星期三 八月 16 03:24:19 GMT 2017" end_display="星期三 八月 16 05:12:17 GMT 2017" suite_name="CTS" suite_version="7.1_r6" suite_plan="cts" suite_build_number="4009365" report_version="5.0" command_line_args="cts -m ContactsTestCase -a arm64-v8a" devices="HGADA5M3" host_name="GUOHAO4-C0AFBKU" os_name="Linux" os_version="4.4.0-43-Microsoft" os_arch="amd64" java_vendor="Oracle Corporation" java_version="1.8.0_101">
+  <Build build_abis_64="arm64-v8a" build_manufacturer="LENOVO" build_abis_32="armeabi-v7a,armeabi" build_product="TB-8704F" build_brand="Lenovo" build_board="msm8953" build_serial="HGADA5M3" build_version_security_patch="2017-06-01" build_reference_fingerprint="" build_fingerprint="Lenovo/TB-8704F/TB-8704F:7.1.1/NMF26F/TB-8704F_USR_S024_170706_Q1241_ROW:user/release-keys" build_version_sdk="25" build_abis="arm64-v8a,armeabi-v7a,armeabi" build_device="TB-8704F" build_abi="arm64-v8a" build_model="Lenovo TB-8704F" build_id="NMF26F" build_abi2="" build_version_release="7.1.1" build_version_base_os="" build_type="user" build_tags="release-keys" />
+  <Summary pass="92" failed="6" modules_done="1" modules_total="1" />
+  <Module name="ContactsTestCase" abi="arm64-v8a" runtime="6000" done="true" pass="92">
+    <TestCase name="com.android.contacts.TestCas171_AddToFavouriteTest">
+      <Test result="fail" name="testFav">
+        <Failure message="com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: See trace below&#13;">
+          <StackTrace>com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: See trace below
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at com.android.contacts.TestCas171_AddToFavouriteTest.findAndAddToFavourite(TestCas171_AddToFavouriteTest.java:81)
+at com.android.contacts.TestCas171_AddToFavouriteTest$1.call(TestCas171_AddToFavouriteTest.java:60)
+at com.android.contacts.TestExecutorCompat$Caller.callSafety(TestExecutorCompat.java:23)
+at com.android.contacts.TestExecutorCompat$Caller.access$100(TestExecutorCompat.java:17)
+at com.android.contacts.TestExecutorCompat.execute(TestExecutorCompat.java:44)
+at com.android.contacts.TestCas171_AddToFavouriteTest.testFav(TestCas171_AddToFavouriteTest.java:57)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.lang.Thread.run(Thread.java:761)
+</StackTrace>
+        </Failure>
+      </Test>
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase10_SaveAndDiscardName">
+      <Test result="pass" name="testDiscardName" />
+      <Test result="pass" name="testSaveName" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase114_ImportWhenOnlyOneVCardTest">
+      <Test result="pass" name="testImportWhenOnlyOneVCard" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase115_ImportWhenMultipleVCardExistTest">
+      <Test result="pass" name="testImportWhenManyVCard" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase118_ImportWhenNoVCardTest">
+      <Test result="pass" name="null" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase119_ImportWithOneLargeVCardTest">
+      <Test result="pass" name="testImportWithOneLargeVCard" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase11_SetPhotoWithGIFTest">
+      <Test result="fail" name="testSetPhotoWithGIF">
+        <Failure message="java.lang.AssertionError: No photos in Pictures&#13;">
+          <StackTrace>java.lang.AssertionError: No photos in Pictures
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at com.android.contacts.TestCase11_SetPhotoWithGIFTest.createContact(TestCase11_SetPhotoWithGIFTest.java:117)
+at com.android.contacts.TestCase11_SetPhotoWithGIFTest.testSetPhotoWithGIF(TestCase11_SetPhotoWithGIFTest.java:78)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.lang.Thread.run(Thread.java:761)
+</StackTrace>
+        </Failure>
+      </Test>
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase122_ExportToLocalStorageWithPeoplesTest">
+      <Test result="pass" name="testExportToLocalStorageWithPeoples" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase125_ExportToLocalStorageWith1000PeoplesTest">
+      <Test result="pass" name="testExportToLocalStorageWithPeoples" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase128_ExportToLocalStorageWithPeoplesDiscardTest">
+      <Test result="pass" name="testExportToLocalStorageWithPeoples" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase12_EditPhotoTest">
+      <Test result="pass" name="testEditPhoto" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase131_ExportToLocalStorageWithPeoplesMultipleTimesTest">
+      <Test result="pass" name="testExportToLocalStorageWithPeoples" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase13_SetPhotoWithDownloadImageTest">
+      <Test result="pass" name="testSetPhotoWithDownloadImage" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase14_SetPhotoWithDiffFormatImagesTest">
+      <Test result="pass" name="testWithDiffFormatPhoto" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase152_ExportToSDTest">
+      <Test result="pass" name="testExportToLocalStorageWithPeoples" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase15_SetPhotoWithCapturedTest">
+      <Test result="pass" name="testSetPhotoWithCaptureImage" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase167_SharePeopleOnce">
+      <Test result="pass" name="null" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase169_SharePeopleAlways">
+      <Test result="pass" name="null" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase16_EditCompanyandTitle">
+      <Test result="fail" name="testEditCompanyandTitle">
+        <Failure message="java.lang.AssertionError&#13;">
+          <StackTrace>java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at com.android.contacts.TestCase16_EditCompanyandTitle.createContactWithCompanyandTitle(TestCase16_EditCompanyandTitle.java:100)
+at com.android.contacts.TestCase16_EditCompanyandTitle.testEditCompanyandTitle(TestCase16_EditCompanyandTitle.java:53)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.lang.Thread.run(Thread.java:761)
+</StackTrace>
+        </Failure>
+      </Test>
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase172_EditGroupTest">
+      <Test result="pass" name="testEditGroups" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase17_EditCompanyWithRotate">
+      <Test result="pass" name="testEditCompanyWithRotate" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase186_Stress_DeletePeopleTest">
+      <Test result="pass" name="testDeletePeople" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase187_Stress_ImportExportTest">
+      <Test result="pass" name="testImportExport" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase18_SaveandDiscardCompanyTest">
+      <Test result="pass" name="testEditCompanyandTitle" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase191_ExportToSDWith1000PeoplesTest">
+      <Test result="pass" name="testExportToLocalStorageWithPeoples" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase192_Stress_Create5000PeopleTest">
+      <Test result="pass" name="testCreatePeople" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase194_DeletePeopleInGroupTest">
+      <Test result="pass" name="testEditGroup" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase194_TestDeleteContactFromFavorites">
+      <Test result="pass" name="testDeleteContactFromFavorites" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase195_RemovePeopleFromGroupTest">
+      <Test result="fail" name="testEditGroup">
+        <Failure message="java.lang.AssertionError&#13;">
+          <StackTrace>java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at com.android.contacts.TestCase195_RemovePeopleFromGroupTest.removeFromGroup(TestCase195_RemovePeopleFromGroupTest.java:58)
+at com.android.contacts.TestCase195_RemovePeopleFromGroupTest.testEditGroup(TestCase195_RemovePeopleFromGroupTest.java:31)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.lang.Thread.run(Thread.java:761)
+</StackTrace>
+        </Failure>
+      </Test>
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase196_TestCancelFavoriteContact">
+      <Test result="pass" name="testCancelFavoriteContact" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase197_EditContactFromFavorites">
+      <Test result="pass" name="testEditContactFromFavorites" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase199_TestPlaceOnHomeFromFavorites">
+      <Test result="pass" name="testPlaceOnHomeFromFavorites" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase19_TestEditNumberWithDifferentType">
+      <Test result="pass" name="testEditNumberWithDifferentType" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase1_ContactsWidgetTest">
+      <Test result="pass" name="testWidgets" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase20_TestEditNumberWithRotate">
+      <Test result="pass" name="testEditNumberWithRotate" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase21_SaveandDiscardPhoneTest">
+      <Test result="pass" name="testSaveandDiscardPhone" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase22_EditEmailWithDifferentType">
+      <Test result="pass" name="testAll" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase23_EditEmailWithRotate">
+      <Test result="pass" name="testEditEmailWithRotate" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase24_SaveAndDiscardEmail">
+      <Test result="pass" name="testDiscardEmail" />
+      <Test result="pass" name="testSaveEmail" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase25_TestCorrectAndWrongEmail">
+      <Test result="pass" name="testCorrectEmail" />
+      <Test result="pass" name="testWrongEmail" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase28_CreatePeopleInPhoneTest">
+      <Test result="pass" name="testCreatePeopleInPhone" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase29_CreatePeopleInSIMTest">
+      <Test result="fail" name="testCreatePeopleInSIM">
+        <Failure message="com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: SIM not ready&#13;">
+          <StackTrace>com.android.contacts.TestExecutorCompat$ExecutionException: TEST FAILED: SIM not ready
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at com.android.contacts.TestCase29_CreatePeopleInSIMTest.ensureSIMInsert(TestCase29_CreatePeopleInSIMTest.java:66)
+at com.android.contacts.TestCase29_CreatePeopleInSIMTest.access$100(TestCase29_CreatePeopleInSIMTest.java:30)
+at com.android.contacts.TestCase29_CreatePeopleInSIMTest$1.call(TestCase29_CreatePeopleInSIMTest.java:45)
+at com.android.contacts.TestExecutorCompat$Caller.callSafety(TestExecutorCompat.java:23)
+at com.android.contacts.TestExecutorCompat$Caller.access$100(TestExecutorCompat.java:17)
+at com.android.contacts.TestExecutorCompat.execute(TestExecutorCompat.java:44)
+at com.android.contacts.TestCase29_CreatePeopleInSIMTest.setup(TestCase29_CreatePeopleInSIMTest.java:40)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at org.junit.runners.Suite.runChild(Suite.java:128)
+at org.junit.runners.Suite.runChild(Suite.java:27)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1939)
+</StackTrace>
+        </Failure>
+      </Test>
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase30_CreatePeopleInGoogleAccountTest">
+      <Test result="pass" name="testCreatePeopleInGoogle" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase32_DefaultGroupDiaplayTest">
+      <Test result="pass" name="testDefaultGroups" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase33_CreateGroupTest">
+      <Test result="pass" name="testCreateGroups" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase36_EditGroupTest">
+      <Test result="pass" name="testEditGroups" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase37_DefaultGroupTest">
+      <Test result="pass" name="testDefaultGroups" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase38_AddPeopleToGroupTest">
+      <Test result="pass" name="testEditGroup" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase39_RemovePeopleFromGroupTest">
+      <Test result="pass" name="testEditGroup" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase40_AddToABC_RemovefromATest">
+      <Test result="pass" name="testEditGroup" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase42_RemoveCustomGroupTest">
+      <Test result="pass" name="testEditGroup" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase43_EditIMWithDifferentType">
+      <Test result="pass" name="testEditIMWithDifferentType" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase44_SaveAndDiscardIMWithRotate">
+      <Test result="pass" name="testEditIMWithDiscard" />
+      <Test result="pass" name="testEditIMWithSave" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase46_EditNotes">
+      <Test result="pass" name="testEditNotes" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase47_SaveAndDiscardNotesWithRotate">
+      <Test result="pass" name="testDiscardNotesWithRotate" />
+      <Test result="pass" name="testSaveNotesWithRotate" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase49_EditNicknameWithDiffCharTest">
+      <Test result="pass" name="testEditNicknameWithDiffCharsets" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase50_SaveandDiscardNicknameTest">
+      <Test result="pass" name="testSaveandDiscardNickname" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase52_EditWebsite">
+      <Test result="pass" name="testEditWebsite" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase53_SaveAndDiscardWebsiteWithRotate">
+      <Test result="pass" name="testDiscardWebsiteWithRotate" />
+      <Test result="pass" name="testSaveWebsiteWithRotate" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase55_EditWebsiteWithChineseChar">
+      <Test result="pass" name="testEditWebsiteWithChineseChar" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase59_TestSwitchTabs">
+      <Test result="pass" name="testSwitchTabs" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase5_EditNameWithDiffCharTest">
+      <Test result="pass" name="testEditNameWithDiffCharsets" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase60_SortTest">
+      <Test result="pass" name="testSort" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase61_ShowPhotoWithAlphaTest">
+      <Test result="pass" name="testShowPhotoWithAlpha" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase64_CreatePeopleWithNumberOnlyTest">
+      <Test result="pass" name="testCreatePeopleWithNumberOnly" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase65_CreatePeopleWithNameOnlyTest">
+      <Test result="pass" name="testCreatePeopleWithNameOnly" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase66_CreatePeopleWithMailOnlyTest">
+      <Test result="pass" name="testCreatePeopleWithMailOnly" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase67_PinnedIndexTest">
+      <Test result="pass" name="testPinnedIndex" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase68_Dep_FloatingIndexTest">
+      <Test result="pass" name="null" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase69_TestSetupProfile">
+      <Test result="pass" name="testSetupProfile" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase70_TestSaveAndDiscardProfileWithRotate">
+      <Test result="pass" name="testAll" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase72_SetupMyProfileWithGIFTest">
+      <Test result="pass" name="testSetupMyProfileWithGIF" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase73_SetupMyProfileWithLocalPhotoTest">
+      <Test result="fail" name="testSetupMyProfileWithLocalPhoto">
+        <Failure message="java.lang.AssertionError: Photo not match&#13;">
+          <StackTrace>java.lang.AssertionError: Photo not match
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at com.android.contacts.TestCase73_SetupMyProfileWithLocalPhotoTest.createContact(TestCase73_SetupMyProfileWithLocalPhotoTest.java:176)
+at com.android.contacts.TestCase73_SetupMyProfileWithLocalPhotoTest.testSetupMyProfileWithLocalPhoto(TestCase73_SetupMyProfileWithLocalPhotoTest.java:92)
+at java.lang.reflect.Method.invoke(Native Method)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at java.lang.Thread.run(Thread.java:761)
+</StackTrace>
+        </Failure>
+      </Test>
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase74_SetupMyProfileWithDownloadPhotoTest">
+      <Test result="pass" name="testSetupMyProfileWithDownloadPhoto" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase75_SetupMyProfileWithTakenPhotoTest">
+      <Test result="pass" name="testSetupMyProfileWithTakenPhoto" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase76_ContactDetailsTest">
+      <Test result="pass" name="testContactDetails" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase78_AddToFavouriteTest">
+      <Test result="pass" name="testFav" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase79_RemoveFromFavouriteTest">
+      <Test result="pass" name="testFav" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase7_SaveAndDiscardTest">
+      <Test result="pass" name="testSaveAndDiscard" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase80_DeletePeopleTest">
+      <Test result="pass" name="testDeletePeople" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase81_DeletePeopleChangeOrientationTest">
+      <Test result="pass" name="testCreatePeopleWithMailOnly" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase83_SharePeopleWithBTOnTest">
+      <Test result="pass" name="testSharePeople" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase84_SharePeopleWithBTOffTest">
+      <Test result="pass" name="testSharePeople" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase85_SharePeopleWithSHAREitTest">
+      <Test result="pass" name="null" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase88_TestCopyAndPasteNumber">
+      <Test result="pass" name="testCopyAndPasteNumber" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase8_TestPinyinName">
+      <Test result="pass" name="testPinyinName" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase91_AddNumberAndEmailFromQuickContactActivity">
+      <Test result="pass" name="testAddNumberAndEmailFromQuickContactActivity" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase93_DeletePeopleTest">
+      <Test result="pass" name="testDeletePeople" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase94_TestLinkContacts">
+      <Test result="pass" name="testLinkContacts" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase96_TestUnlinkContacts">
+      <Test result="pass" name="testUnlinkContacts" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestCase97_TestDiscardChanges">
+      <Test result="pass" name="testDiscardChanges" />
+    </TestCase>
+    <TestCase name="com.android.contacts.TestSuit">
+      <Test result="pass" name="null" />
+    </TestCase>
+  </Module>
+</Result>

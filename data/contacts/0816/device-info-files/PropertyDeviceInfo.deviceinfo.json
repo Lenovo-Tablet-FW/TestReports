@@ -1,0 +1,756 @@
+{
+  "ro_property": [
+    {
+      "name": "ro.adb.secure",
+      "value": "1"
+    },
+    {
+      "name": "ro.alarm_boot",
+      "value": "false"
+    },
+    {
+      "name": "ro.allow.mock.location",
+      "value": "0"
+    },
+    {
+      "name": "ro.am.reschedule_service",
+      "value": "true"
+    },
+    {
+      "name": "ro.baseband",
+      "value": "apq"
+    },
+    {
+      "name": "ro.bluetooth.dun",
+      "value": "false"
+    },
+    {
+      "name": "ro.bluetooth.hfp.ver",
+      "value": "1.7"
+    },
+    {
+      "name": "ro.bluetooth.sap",
+      "value": "false"
+    },
+    {
+      "name": "ro.board.platform",
+      "value": "msm8953"
+    },
+    {
+      "name": "ro.boot.authorized_kernel",
+      "value": "true"
+    },
+    {
+      "name": "ro.boot.baseband",
+      "value": "apq"
+    },
+    {
+      "name": "ro.boot.bootdevice",
+      "value": "7824900.sdhci"
+    },
+    {
+      "name": "ro.boot.console",
+      "value": "ttyHSL0"
+    },
+    {
+      "name": "ro.boot.countrycode",
+      "value": "US"
+    },
+    {
+      "name": "ro.boot.emmc",
+      "value": "true"
+    },
+    {
+      "name": "ro.boot.flash.locked",
+      "value": "1"
+    },
+    {
+      "name": "ro.boot.hardware",
+      "value": "qcom"
+    },
+    {
+      "name": "ro.boot.keymaster",
+      "value": "1"
+    },
+    {
+      "name": "ro.boot.lenovosn2",
+      "value": "1234567890ABCDEF"
+    },
+    {
+      "name": "ro.boot.serialno",
+      "value": "HGADA5M3"
+    },
+    {
+      "name": "ro.boot.verifiedbootstate",
+      "value": "green"
+    },
+    {
+      "name": "ro.boot.veritymode",
+      "value": "enforcing"
+    },
+    {
+      "name": "ro.boot_progress_support",
+      "value": "1"
+    },
+    {
+      "name": "ro.bootimage.build.date",
+      "value": "2017年 07月 06日 星期四 15:55:08 CST"
+    },
+    {
+      "name": "ro.bootimage.build.date.utc",
+      "value": "1499327708"
+    },
+    {
+      "name": "ro.bootimage.build.fingerprint",
+      "value": "Lenovo/TB-8704F/TB-8704F:7.1.1/NMF26F/TB-8704F_USR_S024_170706_Q1241_ROW:user/release-keys"
+    },
+    {
+      "name": "ro.bootloader",
+      "value": "unknown"
+    },
+    {
+      "name": "ro.bootmode",
+      "value": "unknown"
+    },
+    {
+      "name": "ro.build.accelerator.brand",
+      "value": "rpi1040"
+    },
+    {
+      "name": "ro.build.bluetooth.brand",
+      "value": "qualcomm"
+    },
+    {
+      "name": "ro.build.characteristics",
+      "value": "tablet"
+    },
+    {
+      "name": "ro.build.custom.hwversion",
+      "value": "Lenovo Tablet TB-8704F"
+    },
+    {
+      "name": "ro.build.custom.internal.id",
+      "value": "TB-8704F_USR_S000024_1707061544_Q1241_ROW"
+    },
+    {
+      "name": "ro.build.custom.internal.name",
+      "value": "Lenovo"
+    },
+    {
+      "name": "ro.build.custom.swversion",
+      "value": "TB-8704F_RF01_170517"
+    },
+    {
+      "name": "ro.build.date",
+      "value": "2017年 07月 06日 星期四 16:01:30 CST"
+    },
+    {
+      "name": "ro.build.date.utc",
+      "value": "1499328090"
+    },
+    {
+      "name": "ro.build.description",
+      "value": "msm8953_64-user 7.1.1 NMF26F 458 release-keys"
+    },
+    {
+      "name": "ro.build.device.name",
+      "value": "Lenovo TB-8704F"
+    },
+    {
+      "name": "ro.build.device.ninur",
+      "value": "64687"
+    },
+    {
+      "name": "ro.build.display.hardware",
+      "value": "56"
+    },
+    {
+      "name": "ro.build.display.id",
+      "value": "TB-8704F_S000024_170706_ROW"
+    },
+    {
+      "name": "ro.build.extstorage.type",
+      "value": "EMMC_SDCARD"
+    },
+    {
+      "name": "ro.build.fingerprint",
+      "value": "Lenovo/TB-8704F/TB-8704F:7.1.1/NMF26F/TB-8704F_USR_S024_170706_Q1241_ROW:user/release-keys"
+    },
+    {
+      "name": "ro.build.flavor",
+      "value": "msm8953_64-user"
+    },
+    {
+      "name": "ro.build.hardware.platform",
+      "value": "p3590_pcb"
+    },
+    {
+      "name": "ro.build.host",
+      "value": "ubuntu"
+    },
+    {
+      "name": "ro.build.id",
+      "value": "NMF26F"
+    },
+    {
+      "name": "ro.build.internal.type",
+      "value": "NORMAL"
+    },
+    {
+      "name": "ro.build.lt.id",
+      "value": "LLD3IB6"
+    },
+    {
+      "name": "ro.build.network.type",
+      "value": "wcdma_gsm"
+    },
+    {
+      "name": "ro.build.phonenumber.minmatch",
+      "value": "9"
+    },
+    {
+      "name": "ro.build.product.name",
+      "value": "lxf_p3590_b01"
+    },
+    {
+      "name": "ro.build.tags",
+      "value": "release-keys"
+    },
+    {
+      "name": "ro.build.type",
+      "value": "user"
+    },
+    {
+      "name": "ro.build.user",
+      "value": "ubuntu"
+    },
+    {
+      "name": "ro.build.version.all_codenames",
+      "value": "REL"
+    },
+    {
+      "name": "ro.build.version.codename",
+      "value": "REL"
+    },
+    {
+      "name": "ro.build.version.external",
+      "value": "LLD3IB6.1.5_M056"
+    },
+    {
+      "name": "ro.build.version.incremental",
+      "value": "TB-8704F_S000024_170706_ROW"
+    },
+    {
+      "name": "ro.build.version.internal",
+      "value": "LLD3IB6_SPF.2.0_0.12.000.1_T24C0706_A"
+    },
+    {
+      "name": "ro.build.version.preview_sdk",
+      "value": "0"
+    },
+    {
+      "name": "ro.build.version.release",
+      "value": "7.1.1"
+    },
+    {
+      "name": "ro.build.version.sdk",
+      "value": "25"
+    },
+    {
+      "name": "ro.build.version.security_patch",
+      "value": "2017-06-01"
+    },
+    {
+      "name": "ro.build.wifi.brand",
+      "value": "atheros"
+    },
+    {
+      "name": "ro.carrier",
+      "value": "unknown"
+    },
+    {
+      "name": "ro.com.android.dataroaming",
+      "value": "false"
+    },
+    {
+      "name": "ro.com.android.mobiledata",
+      "value": "false"
+    },
+    {
+      "name": "ro.com.google.gmsversion",
+      "value": "7.1_r3"
+    },
+    {
+      "name": "ro.config.alarm_alert",
+      "value": "New_Morning.ogg"
+    },
+    {
+      "name": "ro.config.destory_surface",
+      "value": "true"
+    },
+    {
+      "name": "ro.config.notification_sound",
+      "value": "Notice.ogg"
+    },
+    {
+      "name": "ro.config.ringtone",
+      "value": "Fantastic_Clang.ogg"
+    },
+    {
+      "name": "ro.config.zram",
+      "value": "true"
+    },
+    {
+      "name": "ro.core_ctl_max_cpu",
+      "value": "4"
+    },
+    {
+      "name": "ro.core_ctl_min_cpu",
+      "value": "2"
+    },
+    {
+      "name": "ro.crypto.fs_crypto_blkdev",
+      "value": "/dev/block/dm-1"
+    },
+    {
+      "name": "ro.crypto.state",
+      "value": "encrypted"
+    },
+    {
+      "name": "ro.crypto.type",
+      "value": "block"
+    },
+    {
+      "name": "ro.cutoff_voltage_mv",
+      "value": "3400"
+    },
+    {
+      "name": "ro.dalvik.vm.native.bridge",
+      "value": "0"
+    },
+    {
+      "name": "ro.debuggable",
+      "value": "0"
+    },
+    {
+      "name": "ro.emmc_size",
+      "value": "16GB"
+    },
+    {
+      "name": "ro.expect.recovery_id",
+      "value": "0xeb1caa690ca0fb42073c12649f01f91a2cfc7bb7000000000000000000000000"
+    },
+    {
+      "name": "ro.fm.transmitter",
+      "value": "false"
+    },
+    {
+      "name": "ro.frp.pst",
+      "value": "/dev/block/bootdevice/by-name/config"
+    },
+    {
+      "name": "ro.gpu.available_frequencies",
+      "value": "650000000 560000000 510000000 400000000 320000000 216000000 133330000 "
+    },
+    {
+      "name": "ro.hardware",
+      "value": "qcom"
+    },
+    {
+      "name": "ro.hardware.version",
+      "value": "56"
+    },
+    {
+      "name": "ro.hwui.drop_shadow_cache_size",
+      "value": "6"
+    },
+    {
+      "name": "ro.hwui.gradient_cache_size",
+      "value": "1"
+    },
+    {
+      "name": "ro.hwui.layer_cache_size",
+      "value": "48"
+    },
+    {
+      "name": "ro.hwui.path_cache_size",
+      "value": "32"
+    },
+    {
+      "name": "ro.hwui.r_buffer_cache_size",
+      "value": "8"
+    },
+    {
+      "name": "ro.hwui.text_large_cache_height",
+      "value": "1024"
+    },
+    {
+      "name": "ro.hwui.text_large_cache_width",
+      "value": "2048"
+    },
+    {
+      "name": "ro.hwui.text_small_cache_height",
+      "value": "1024"
+    },
+    {
+      "name": "ro.hwui.text_small_cache_width",
+      "value": "1024"
+    },
+    {
+      "name": "ro.hwui.texture_cache_flushrate",
+      "value": "0.4"
+    },
+    {
+      "name": "ro.hwui.texture_cache_size",
+      "value": "72"
+    },
+    {
+      "name": "ro.lct_country_info_ctrl",
+      "value": "1"
+    },
+    {
+      "name": "ro.lenovo.bqb",
+      "value": "pass"
+    },
+    {
+      "name": "ro.lenovo.cpuinfo",
+      "value": "APQ8053,8,2.0"
+    },
+    {
+      "name": "ro.lenovo.cta",
+      "value": "false"
+    },
+    {
+      "name": "ro.lenovo.device",
+      "value": "tablet"
+    },
+    {
+      "name": "ro.lenovo.lcdsize",
+      "value": "8"
+    },
+    {
+      "name": "ro.lenovo.operator",
+      "value": "open"
+    },
+    {
+      "name": "ro.lenovo.platform",
+      "value": "qualcomm"
+    },
+    {
+      "name": "ro.lenovo.region",
+      "value": "row"
+    },
+    {
+      "name": "ro.lenovo.series",
+      "value": "Lenovo Tab4 8 Plus"
+    },
+    {
+      "name": "ro.lenovo.signalbars",
+      "value": "four"
+    },
+    {
+      "name": "ro.lenovo.tablet",
+      "value": "wifi"
+    },
+    {
+      "name": "ro.lenovo.vibeuistyle",
+      "value": "false"
+    },
+    {
+      "name": "ro.lenovo.videocall",
+      "value": "false"
+    },
+    {
+      "name": "ro.lenovo.wificert",
+      "value": "no"
+    },
+    {
+      "name": "ro.lenovosn2",
+      "value": "1234567890ABCDEF"
+    },
+    {
+      "name": "ro.logdumpd.enabled",
+      "value": "0"
+    },
+    {
+      "name": "ro.mdtp.package_name2",
+      "value": "com.qualcomm.qti.securemsm.mdtp.MdtpDemo"
+    },
+    {
+      "name": "ro.memperf.enable",
+      "value": "false"
+    },
+    {
+      "name": "ro.memperf.lib",
+      "value": "libmemperf.so"
+    },
+    {
+      "name": "ro.opengles.version",
+      "value": "196610"
+    },
+    {
+      "name": "ro.phone.date_format",
+      "value": "Default"
+    },
+    {
+      "name": "ro.phone.fm_band",
+      "value": "Default"
+    },
+    {
+      "name": "ro.phone.wifi_channel",
+      "value": "1-11"
+    },
+    {
+      "name": "ro.product.board",
+      "value": "msm8953"
+    },
+    {
+      "name": "ro.product.brand",
+      "value": "Lenovo"
+    },
+    {
+      "name": "ro.product.countrycode",
+      "value": "US"
+    },
+    {
+      "name": "ro.product.cpu.abi",
+      "value": "arm64-v8a"
+    },
+    {
+      "name": "ro.product.cpu.abilist",
+      "value": "arm64-v8a,armeabi-v7a,armeabi"
+    },
+    {
+      "name": "ro.product.cpu.abilist32",
+      "value": "armeabi-v7a,armeabi"
+    },
+    {
+      "name": "ro.product.cpu.abilist64",
+      "value": "arm64-v8a"
+    },
+    {
+      "name": "ro.product.device",
+      "value": "TB-8704F"
+    },
+    {
+      "name": "ro.product.first_api_level",
+      "value": "24"
+    },
+    {
+      "name": "ro.product.locale.language",
+      "value": "en"
+    },
+    {
+      "name": "ro.product.locale.region",
+      "value": "US"
+    },
+    {
+      "name": "ro.product.manufacturer",
+      "value": "LENOVO"
+    },
+    {
+      "name": "ro.product.model",
+      "value": "Lenovo TB-8704F"
+    },
+    {
+      "name": "ro.product.name",
+      "value": "TB-8704F"
+    },
+    {
+      "name": "ro.product.ota.model",
+      "value": "LenovoTB-8704F_ROW"
+    },
+    {
+      "name": "ro.product.target",
+      "value": "msm8953_64"
+    },
+    {
+      "name": "ro.qc.sdk.audio.fluencetype",
+      "value": "none"
+    },
+    {
+      "name": "ro.qc.sdk.audio.ssr",
+      "value": "false"
+    },
+    {
+      "name": "ro.qq.camera.sensor",
+      "value": "3"
+    },
+    {
+      "name": "ro.qualcomm.bluetooth.ftp",
+      "value": "true"
+    },
+    {
+      "name": "ro.qualcomm.bluetooth.hfp",
+      "value": "false"
+    },
+    {
+      "name": "ro.qualcomm.bluetooth.hsp",
+      "value": "false"
+    },
+    {
+      "name": "ro.qualcomm.bluetooth.map",
+      "value": "true"
+    },
+    {
+      "name": "ro.qualcomm.bluetooth.nap",
+      "value": "false"
+    },
+    {
+      "name": "ro.qualcomm.bluetooth.opp",
+      "value": "true"
+    },
+    {
+      "name": "ro.qualcomm.bluetooth.pbap",
+      "value": "true"
+    },
+    {
+      "name": "ro.qualcomm.bt.hci_transport",
+      "value": "smd"
+    },
+    {
+      "name": "ro.qualcomm.cabl",
+      "value": "2"
+    },
+    {
+      "name": "ro.qualcomm.dpps.sensortype",
+      "value": "2"
+    },
+    {
+      "name": "ro.qualcomm.svi",
+      "value": "1"
+    },
+    {
+      "name": "ro.radio.noril",
+      "value": "true"
+    },
+    {
+      "name": "ro.regionalization.support",
+      "value": "true"
+    },
+    {
+      "name": "ro.revision",
+      "value": "0"
+    },
+    {
+      "name": "ro.runtime.firstboot",
+      "value": "1502738749920"
+    },
+    {
+      "name": "ro.secure",
+      "value": "1"
+    },
+    {
+      "name": "ro.serialno",
+      "value": "HGADA5M3"
+    },
+    {
+      "name": "ro.setupwizard.mode",
+      "value": "OPTIONAL"
+    },
+    {
+      "name": "ro.sf.lcd_density",
+      "value": "320"
+    },
+    {
+      "name": "ro.sys.baseband.default.config",
+      "value": "true"
+    },
+    {
+      "name": "ro.sys.celluler.default.config",
+      "value": "true"
+    },
+    {
+      "name": "ro.sys.default.day",
+      "value": "1"
+    },
+    {
+      "name": "ro.sys.default.month",
+      "value": "1"
+    },
+    {
+      "name": "ro.sys.default.year",
+      "value": "2017"
+    },
+    {
+      "name": "ro.sys.fw.bservice_age",
+      "value": "5000"
+    },
+    {
+      "name": "ro.sys.fw.bservice_enable",
+      "value": "true"
+    },
+    {
+      "name": "ro.sys.fw.bservice_limit",
+      "value": "5"
+    },
+    {
+      "name": "ro.sys.fw.dex2oat_thread_count",
+      "value": "4"
+    },
+    {
+      "name": "ro.sys.fw.empty_app_percent",
+      "value": "50"
+    },
+    {
+      "name": "ro.sys.fw.trim_cache_percent",
+      "value": "100"
+    },
+    {
+      "name": "ro.sys.fw.trim_empty_percent",
+      "value": "100"
+    },
+    {
+      "name": "ro.sys.fw.trim_enable_memory",
+      "value": "2147483648"
+    },
+    {
+      "name": "ro.sys.fw.use_trim_settings",
+      "value": "true"
+    },
+    {
+      "name": "ro.sys.network.default.config",
+      "value": "true"
+    },
+    {
+      "name": "ro.sys.sim.card.default.config",
+      "value": "true"
+    },
+    {
+      "name": "ro.sys.sim.imei.info.config",
+      "value": "true"
+    },
+    {
+      "name": "ro.sys.usb.default.config",
+      "value": "mtp"
+    },
+    {
+      "name": "ro.telephony.call_ring.multiple",
+      "value": "false"
+    },
+    {
+      "name": "ro.telephony.default_network",
+      "value": "22,20"
+    },
+    {
+      "name": "ro.use_data_netmgrd",
+      "value": "true"
+    },
+    {
+      "name": "ro.vendor.at_library",
+      "value": "libqti-at.so"
+    },
+    {
+      "name": "ro.vendor.extension_library",
+      "value": "libqti-perfd-client.so"
+    },
+    {
+      "name": "ro.vendor.gt_library",
+      "value": "libqti-gt.so"
+    },
+    {
+      "name": "ro.zygote",
+      "value": "zygote64_32"
+    }
+  ]
+}

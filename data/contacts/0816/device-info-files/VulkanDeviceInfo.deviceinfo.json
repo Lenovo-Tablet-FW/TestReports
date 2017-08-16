@@ -1,0 +1,864 @@
+{
+  "layers": [],
+  "extensions": [
+    {
+      "extension_name": "VK_KHR_surface",
+      "spec_version": 25
+    },
+    {
+      "extension_name": "VK_KHR_android_surface",
+      "spec_version": 6
+    },
+    {
+      "extension_name": "VK_EXT_debug_report",
+      "spec_version": 2
+    },
+    {
+      "extension_name": "VK_KHR_get_physical_device_properties2",
+      "spec_version": 1
+    }
+  ],
+  "devices": [
+    {
+      "properties": {
+        "api_version": 4194335,
+        "driver_version": 234535275,
+        "vendor_id": 20803,
+        "device_id": 83887616,
+        "device_type": 1,
+        "device_name": "Adreno (TM) 506",
+        "pipeline_cache_uuid": [
+          107,
+          185,
+          250,
+          13,
+          67,
+          81,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          5,
+          0,
+          0
+        ],
+        "limits": {
+          "max_image_dimension_1d": 16384,
+          "max_image_dimension_2d": 16384,
+          "max_image_dimension_3d": 2048,
+          "max_image_dimension_cube": 16384,
+          "max_image_array_layers": 2048,
+          "max_texel_buffer_elements": 65536,
+          "max_uniform_buffer_range": 65536,
+          "max_storage_buffer_range": 2147483647,
+          "max_push_constants_size": 128,
+          "max_memory_allocation_count": 4096,
+          "max_sampler_allocation_count": 4000,
+          "buffer_image_granularity": "0x0000000000000001",
+          "sparse_address_space_size": "0x0000000000000000",
+          "max_bound_descriptor_sets": 4,
+          "max_per_stage_descriptor_samplers": 16,
+          "max_per_stage_descriptor_uniform_buffers": 14,
+          "max_per_stage_descriptor_storage_buffers": 4,
+          "max_per_stage_descriptor_sampled_images": 128,
+          "max_per_stage_descriptor_storage_images": 4,
+          "max_per_stage_descriptor_input_attachments": 8,
+          "max_per_stage_resources": 158,
+          "max_descriptor_set_samplers": 96,
+          "max_descriptor_set_uniform_buffers": 84,
+          "max_descriptor_set_uniform_buffers_dynamic": 8,
+          "max_descriptor_set_storage_buffers": 24,
+          "max_descriptor_set_storage_buffers_dynamic": 4,
+          "max_descriptor_set_sampled_images": 768,
+          "max_descriptor_set_storage_images": 24,
+          "max_descriptor_set_input_attachments": 8,
+          "max_vertex_input_attributes": 32,
+          "max_vertex_input_bindings": 32,
+          "max_vertex_input_attribute_offset": 4096,
+          "max_vertex_input_binding_stride": 2048,
+          "max_vertex_output_components": 128,
+          "max_tessellation_generation_level": 0,
+          "max_tessellation_patch_size": 0,
+          "max_tessellation_control_per_vertex_input_components": 0,
+          "max_tessellation_control_per_vertex_output_components": 0,
+          "max_tessellation_control_per_patch_output_components": 0,
+          "max_tessellation_control_total_output_components": 0,
+          "max_tessellation_evaluation_input_components": 0,
+          "max_tessellation_evaluation_output_components": 0,
+          "max_geometry_shader_invocations": 0,
+          "max_geometry_input_components": 0,
+          "max_geometry_output_components": 0,
+          "max_geometry_output_vertices": 0,
+          "max_geometry_total_output_components": 0,
+          "max_fragment_input_components": 128,
+          "max_fragment_output_attachments": 8,
+          "max_fragment_dual_src_attachments": 0,
+          "max_fragment_combined_output_resources": 72,
+          "max_compute_shared_memory_size": 32768,
+          "max_compute_work_group_count": [
+            65535,
+            65535,
+            65535
+          ],
+          "max_compute_work_group_invocations": 1024,
+          "max_compute_work_group_size": [
+            1024,
+            1024,
+            64
+          ],
+          "sub_pixel_precision_bits": 4,
+          "sub_texel_precision_bits": 8,
+          "mipmap_precision_bits": 8,
+          "max_draw_indexed_index_value": 4294967295,
+          "max_draw_indirect_count": 1,
+          "max_sampler_lod_bias": 15.996094,
+          "max_sampler_anisotropy": 16.0,
+          "max_viewports": 1,
+          "max_viewport_dimensions": [
+            16384,
+            16384
+          ],
+          "viewport_bounds_range": [
+            -32768.0,
+            32767.0
+          ],
+          "viewport_sub_pixel_bits": 0,
+          "min_memory_map_alignment": "0x0000000000000040",
+          "min_texel_buffer_offset_alignment": "0x0000000000000040",
+          "min_uniform_buffer_offset_alignment": "0x0000000000000040",
+          "min_storage_buffer_offset_alignment": "0x0000000000000040",
+          "min_texel_offset": -8,
+          "max_texel_offset": 7,
+          "min_texel_gather_offset": -32,
+          "max_texel_gather_offset": 31,
+          "min_interpolation_offset": -0.5,
+          "max_interpolation_offset": 0.4375,
+          "sub_pixel_interpolation_offset_bits": 4,
+          "max_framebuffer_width": 16384,
+          "max_framebuffer_height": 16384,
+          "max_framebuffer_layers": 2048,
+          "framebuffer_color_sample_counts": 7,
+          "framebuffer_depth_sample_counts": 7,
+          "framebuffer_stencil_sample_counts": 7,
+          "framebuffer_no_attachments_sample_counts": 7,
+          "max_color_attachments": 8,
+          "sampled_image_color_sample_counts": 7,
+          "sampled_image_integer_sample_counts": 7,
+          "sampled_image_depth_sample_counts": 7,
+          "sampled_image_stencil_sample_counts": 7,
+          "storage_image_sample_counts": 1,
+          "max_sample_mask_words": 1,
+          "timestamp_compute_and_graphics": true,
+          "timestamp_period": 52.083332,
+          "max_clip_distances": 8,
+          "max_cull_distances": 8,
+          "max_combined_clip_and_cull_distances": 8,
+          "discrete_queue_priorities": 3,
+          "point_size_range": [
+            1.0,
+            1.0
+          ],
+          "line_width_range": [
+            1.0,
+            1.0
+          ],
+          "point_size_granularity": 0.0,
+          "line_width_granularity": 0.0,
+          "strict_lines": false,
+          "standard_sample_locations": true,
+          "optimal_buffer_copy_offset_alignment": "0x0000000000000040",
+          "optimal_buffer_copy_row_pitch_alignment": "0x0000000000000040",
+          "non_coherent_atom_size": "0x0000000000000001"
+        },
+        "sparse_properties": {
+          "residency_standard_2d_block_shape": false,
+          "residency_standard_2d_multisample_block_shape": false,
+          "residency_standard_3d_block_shape": false,
+          "residency_aligned_mip_size": false,
+          "residency_non_resident_strict": false
+        }
+      },
+      "features": {
+        "robust_buffer_access": true,
+        "full_draw_index_uint32": true,
+        "image_cube_array": true,
+        "independent_blend": true,
+        "geometry_shader": false,
+        "tessellation_shader": false,
+        "sample_rate_shading": true,
+        "dual_src_blend": false,
+        "logic_op": false,
+        "multi_draw_indirect": false,
+        "draw_indirect_first_instance": false,
+        "depth_clamp": false,
+        "depth_bias_clamp": false,
+        "fill_mode_non_solid": false,
+        "depth_bounds": false,
+        "wide_lines": false,
+        "large_points": false,
+        "alpha_to_one": false,
+        "multi_viewport": false,
+        "sampler_anisotropy": true,
+        "texture_compression_etc2": true,
+        "texture_compression_astc_ldr": true,
+        "texture_compression_bc": false,
+        "occlusion_query_precise": true,
+        "pipeline_statistics_query": false,
+        "vertex_pipeline_stores_and_atomics": false,
+        "fragment_stores_and_atomics": true,
+        "shader_tessellation_and_geometry_point_size": false,
+        "shader_image_gather_extended": true,
+        "shader_storage_image_extended_formats": false,
+        "shader_storage_image_multisample": false,
+        "shader_storage_image_read_without_format": false,
+        "shader_storage_image_write_without_format": false,
+        "shader_uniform_buffer_array_dynamic_indexing": true,
+        "shader_sampled_image_array_dynamic_indexing": true,
+        "shader_storage_buffer_array_dynamic_indexing": false,
+        "shader_storage_image_array_dynamic_indexing": false,
+        "shader_clip_distance": true,
+        "shader_cull_distance": true,
+        "shader_float64": false,
+        "shader_int64": false,
+        "shader_int16": false,
+        "shader_resource_residency": false,
+        "shader_resource_min_lod": false,
+        "sparse_binding": false,
+        "sparse_residency_buffer": false,
+        "sparse_residency_image_2d": false,
+        "sparse_residency_image_3d": false,
+        "sparse_residency_2_samples": false,
+        "sparse_residency_4_samples": false,
+        "sparse_residency_8_samples": false,
+        "sparse_residency_16_samples": false,
+        "sparse_residency_aliased": false,
+        "variable_multisample_rate": false,
+        "inherited_queries": true
+      },
+      "memory": {
+        "memory_type_count": 3,
+        "memory_types": [
+          {
+            "property_flags": 1,
+            "heap_index": 0
+          },
+          {
+            "property_flags": 11,
+            "heap_index": 0
+          },
+          {
+            "property_flags": 15,
+            "heap_index": 0
+          }
+        ],
+        "memory_heap_count": 1,
+        "memory_heaps": [
+          {
+            "size": "0x00000000e31da000",
+            "flags": 1
+          }
+        ]
+      },
+      "queues": [
+        {
+          "queue_flags": 3,
+          "queue_count": 3,
+          "timestamp_valid_bits": 48,
+          "min_image_transfer_granularity": {
+            "width": 1,
+            "height": 1,
+            "depth": 1
+          }
+        }
+      ],
+      "layers": [],
+      "extensions": [
+        {
+          "extension_name": "VK_KHR_swapchain",
+          "spec_version": 68
+        }
+      ],
+      "supported_formats": [
+        {
+          "format": 3,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 4,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 0
+        },
+        {
+          "format": 8,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 0
+        },
+        {
+          "format": 9,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 72
+        },
+        {
+          "format": 10,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 72
+        },
+        {
+          "format": 13,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 72
+        },
+        {
+          "format": 14,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 72
+        },
+        {
+          "format": 16,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 72
+        },
+        {
+          "format": 17,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 72
+        },
+        {
+          "format": 20,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 72
+        },
+        {
+          "format": 21,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 72
+        },
+        {
+          "format": 37,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7555,
+          "buffer_features": 88
+        },
+        {
+          "format": 38,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5123,
+          "buffer_features": 88
+        },
+        {
+          "format": 41,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 42,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 43,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 0
+        },
+        {
+          "format": 44,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 72
+        },
+        {
+          "format": 50,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 0
+        },
+        {
+          "format": 51,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7555,
+          "buffer_features": 88
+        },
+        {
+          "format": 52,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5123,
+          "buffer_features": 88
+        },
+        {
+          "format": 55,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 56,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 57,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 0
+        },
+        {
+          "format": 64,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 72
+        },
+        {
+          "format": 68,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 8
+        },
+        {
+          "format": 70,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 71,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 74,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 72
+        },
+        {
+          "format": 75,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 72
+        },
+        {
+          "format": 76,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 72
+        },
+        {
+          "format": 77,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 78,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 81,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 72
+        },
+        {
+          "format": 82,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3201,
+          "buffer_features": 72
+        },
+        {
+          "format": 83,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7553,
+          "buffer_features": 72
+        },
+        {
+          "format": 91,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 92,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 95,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 96,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 97,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 7555,
+          "buffer_features": 88
+        },
+        {
+          "format": 98,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3207,
+          "buffer_features": 120
+        },
+        {
+          "format": 99,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3207,
+          "buffer_features": 120
+        },
+        {
+          "format": 100,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 101,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 102,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 103,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 104,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 105,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 106,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 0,
+          "buffer_features": 64
+        },
+        {
+          "format": 107,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 108,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 109,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 3203,
+          "buffer_features": 88
+        },
+        {
+          "format": 122,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 8
+        },
+        {
+          "format": 123,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 124,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 1537,
+          "buffer_features": 0
+        },
+        {
+          "format": 125,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5633,
+          "buffer_features": 0
+        },
+        {
+          "format": 126,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 1025,
+          "buffer_features": 0
+        },
+        {
+          "format": 129,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5633,
+          "buffer_features": 0
+        },
+        {
+          "format": 147,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 148,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 149,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 150,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 151,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 152,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 153,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 154,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 155,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 156,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 157,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 158,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 159,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 160,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 161,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 162,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 163,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 164,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 165,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 166,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 167,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 168,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 169,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 170,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 171,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 172,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 173,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 174,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 175,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 176,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 177,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 178,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 179,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 180,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 181,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 182,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 183,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        },
+        {
+          "format": 184,
+          "linear_tiling_features": 0,
+          "optimal_tiling_features": 5121,
+          "buffer_features": 0
+        }
+      ]
+    }
+  ]
+}

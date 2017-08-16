@@ -1,0 +1,1549 @@
+{
+  "package": [
+    {
+      "name": "com.skype.raider",
+      "version_name": "2.4.435.18465",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.cts.priv.ctsshim",
+      "version_name": "7.0-2996264",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.youtube",
+      "version_name": "12.29.57",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.auth.sampleextauthservice",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.qrd.omadownload",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.ext.services",
+      "version_name": "1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.providers.telephony",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.wantjoin.settings",
+      "version_name": "0.1.2017.06.14.01",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.googlequicksearchbox",
+      "version_name": "6.13.25.21.arm64",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.providers.calendar",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.launcher.provider",
+      "version_name": "1.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.providers.media",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indiansindhi",
+      "version_name": "5.7.9.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.malayan",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.marathi",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.goodix.rawdata",
+      "version_name": "v1.8.0.8",
+      "system_priv": false
+    },
+    {
+      "name": "com.qti.service.colorservice",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.onetimeinitializer",
+      "version_name": "7.1.1-3515457",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.ext.shared",
+      "version_name": "1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indianmaithili",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.shutdownlistner",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.wallpapercropper",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.quicinc.cne.CNEService",
+      "version_name": "1.0",
+      "system_priv": true
+    },
+    {
+      "name": "cn.test.filldata",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.phonefeature",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indianmanipuri",
+      "version_name": "5.7.9.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.compatibility.common.deviceinfo",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.lenovo.lewea",
+      "version_name": "v3.8.75.20170609",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.belarusian",
+      "version_name": "5.6.8.8",
+      "system_priv": true
+    },
+    {
+      "name": "org.simalliance.openmobileapi.service",
+      "version_name": "4.0.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.dolby.daxappUI",
+      "version_name": "DAX2.3.1.30_r1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.afrikaans",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.weather.theme.dreamlandPad",
+      "version_name": "v2.0.15.20170607",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.spanishus",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qti.storagecleaner",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.documentsui",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.appnetaccess",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.externalstorage",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.timerswitch",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.htmlviewer",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.svi",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.mms.service",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.codeaurora.fmradio",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.emoji.keyboard.touchpal.lenovo",
+      "version_name": "5.8.4.4",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.thai",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.urdu",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.wubi",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.zulu",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.providers.downloads",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.auth.sampleauthenticatorservice",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.longcheertel.midtest",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.bosnianlatin",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.partnerbrowsercustomizations.example",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.poweronalert",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.telephonyservice",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.chs.handwrite",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.auth.fidocryptoservice",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.configupdater",
+      "version_name": "7.1.1-3515457",
+      "system_priv": true
+    },
+    {
+      "name": "com.microsoft.office.excel",
+      "version_name": "16.0.8027.1007",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.russian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indiankonkani",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.lsf",
+      "version_name": "V4.2.7.4233tr",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.ota",
+      "version_name": "ROW_V7.0.8.20170425",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.tradefed.utils.wifi",
+      "version_name": "N-eng.avellore.20151124.155708",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.defcontainer",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.vending",
+      "version_name": "8.0.73.R-all [0] [PR] 162689464",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.pacprocessor",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.cabl",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indiandogri",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.portuguesebr",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.portuguesept",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.albanian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.dzsoft.smart.daemon",
+      "version_name": "5.4.6",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.contacts.ui.test",
+      "version_name": "20170816",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.certinstaller",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.carrierconfig",
+      "version_name": "1.0.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.marvin.talkback",
+      "version_name": "5.1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.simplecangjie",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "org.codeaurora.bluetooth",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.doze.ui.test",
+      "version_name": "1.1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.lctautotest.camera",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.qti.qualcomm.datastatusnotification",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.tencent.research.drop",
+      "version_name": "3.2.0.438",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indianbodo",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "android",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.contacts",
+      "version_name": "1.4.17",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.wfd.service",
+      "version_name": "2.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.qti.qualcomm.deviceinfo",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.lenovo.tab4_8plus",
+      "version_name": "1.0.2",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indiankashmiri",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.serbian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.dutchbe",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.egg",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.mtp",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.backupconfirm",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.georgian",
+      "version_name": "5.7.9.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.sinhala",
+      "version_name": "5.6.8.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.italian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.microsoft.office.onenote",
+      "version_name": "15.0.0.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.example.onedrive",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.germanch",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "org.codeaurora.ims",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.statementservice",
+      "version_name": "1.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.gm",
+      "version_name": "7.7.16.164685024.release",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.macedonian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.tifinagh",
+      "version_name": "6.0.3.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.qti.launcherunreadservice",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.norwegian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.spanish",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.croatian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.azerbaijani",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.microsoft.office.outlook",
+      "version_name": "2.1.201",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.auth.secureextauthservice",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.setupwizard",
+      "version_name": "225.3779609",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.hungarian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qcrilmsgtunnel",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.providers.settings",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.sharedstoragebackup",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.englishgb",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.englishus",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.music",
+      "version_name": "7.11.5115-1.U.4242884",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.printspooler",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.swahili",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.slovenian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.swedish",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.dreams.basic",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.qcom_accesslogkit",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.frameworks.telresources",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.statusbar.ui.test",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.estonian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.inputdevices",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.kidoz.lenovo",
+      "version_name": "4.0.3.5",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.auth.securesampleauthservice",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.wantjoin.childmode.ctrl",
+      "version_name": "0.1.2017.06.14.01",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.CdmaCallOptions",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.oma.drm",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.qti.dpmserviceapp",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.mxtech.videoplayer.ad",
+      "version_name": "1.9.3",
+      "system_priv": false
+    },
+    {
+      "name": "com.lenovo.anyshare.gps",
+      "version_name": "2.6.58_hd",
+      "system_priv": false
+    },
+    {
+      "name": "com.lenovo.newue.service",
+      "version_name": "6.0.14.o",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.galician",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qti.xdivert",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.apps.cloudprint",
+      "version_name": "1.36b",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.musicfx",
+      "version_name": "1.4",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.tagalog",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.apps.docs",
+      "version_name": "2.7.252.04.44",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.apps.maps",
+      "version_name": "9.58.2",
+      "system_priv": false
+    },
+    {
+      "name": "com.microsoft.office.word",
+      "version_name": "16.0.8027.1007",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.hindilatin",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.license",
+      "version_name": "v2.0.4.20170208",
+      "system_priv": true
+    },
+    {
+      "name": "com.chaozhuo.filemanager",
+      "version_name": "3.0.7",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.cellbroadcastreceiver",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.bulgarian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.webview",
+      "version_name": "0.0.0.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.microsoft.office.powerpoint",
+      "version_name": "16.0.8027.1007",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.simsettings",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.lenovo.lsf.device",
+      "version_name": "V4.6.6.2310trn",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indiansanskrit",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indiansanthali",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.server.telecom",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.hunantv.imgo.activity",
+      "version_name": "5.5.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.syncadapters.contacts",
+      "version_name": "7.1.1-3515457",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.poweroffhandlerapp",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.keychain",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.chs",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.cht",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.frenchbe",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.frenchca",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.frenchch",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.chrome",
+      "version_name": "59.0.3071.125",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.tibetan",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.hinglish",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.packageinstaller",
+      "version_name": "7.1.1-3733695",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.gms",
+      "version_name": "11.3.02 (446-161239932)",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.gsf",
+      "version_name": "7.1.1-3515457",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.tag",
+      "version_name": "1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.tts",
+      "version_name": "3.11.12",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.armenian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.calllogbackup",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.partnersetup",
+      "version_name": "7.1.1-3779609",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.videos",
+      "version_name": "3.22.14",
+      "system_priv": false
+    },
+    {
+      "name": "org.codeaurora.btmultisim",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.dsi.ant.server",
+      "version_name": "4.0.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.proxyhandler",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.gujarati",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.netflix.mediaclient",
+      "version_name": "4.13.3 build 14573",
+      "system_priv": false
+    },
+    {
+      "name": "org.videolan.vlc",
+      "version_name": "2.0.6",
+      "system_priv": false
+    },
+    {
+      "name": "com.goodix.fingerprinttest",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.indonesian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.feedback",
+      "version_name": "7.1.1-3515457",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.printservice.recommendation",
+      "version_name": "1.0.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.apps.photos",
+      "version_name": "3.2.0.163525294",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.calendar",
+      "version_name": "5.7.10-149099100-release",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.managedprovisioning",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.turkish",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.kannada",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.dreams.phototable",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.amharic",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.motorola.demo",
+      "version_name": "20170419",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.arabic",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.finnish",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.basque",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.ukrainian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.lithuanian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.danish",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.providers.partnerbookmarks",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.google.android.gsf.login",
+      "version_name": "7.1.1-3515457",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.smspush",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.coolapk.market",
+      "version_name": "7.9.6",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.wallpaper.livepicker",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.french",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.kirghiz",
+      "version_name": "5.7.9.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.german",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.persian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.hebrew",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.soundrecorder",
+      "version_name": "V2.0.20.20170518",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.kazakh",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.dolby",
+      "version_name": "DAX2.3.1.30_r1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.korean",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.japanese",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.telephony.vodafonepack",
+      "version_name": "1.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.backuptransport",
+      "version_name": "7.1.1-3515457",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.nepali",
+      "version_name": "5.6.8.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.malayalam",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.accesscache",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.longcheertel.audioft",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.storagemanager",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.lps.cloud.sync.row",
+      "version_name": "1.1.54",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.spanishlatin",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.wdstechnology.android.kryten",
+      "version_name": "1.0.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.pashto",
+      "version_name": "5.8.4.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.extsettings",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.polish",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.bookmarkprovider",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.settings",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.ims",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.javanese",
+      "version_name": "5.7.9.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.kurdish",
+      "version_name": "5.8.4.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.quicinc.wbcserviceapp",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.slovak",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.calculator2",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.telugu",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.location",
+      "version_name": "1.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.simcontacts",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.qs",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.uyghur",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.cts.ctsshim",
+      "version_name": "7.0-2996264",
+      "system_priv": false
+    },
+    {
+      "name": "com.oma.drm.server",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.punjabi",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.bengali",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.tetherservice",
+      "version_name": "1.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.assamese",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.yoruba",
+      "version_name": "5.8.0.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.zawgyi",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.services.secureui",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.vpndialogs",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.launcher",
+      "version_name": "V1.1.5.170616",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.talk",
+      "version_name": "21.0.162426697",
+      "system_priv": false
+    },
+    {
+      "name": "com.qti.datastoragecleanerservice",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.romanian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.laotian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.latvian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.phone",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.shell",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.czech",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.dutch",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.greek",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.hausa",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.hindi",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.irish",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.khmer",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.wallpaperbackup",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.oriya",
+      "version_name": "5.6.8.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.oromo",
+      "version_name": "5.8.2.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.providers.blockednumber",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.tamil",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.tatar",
+      "version_name": "5.7.9.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.tigre",
+      "version_name": "5.8.2.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.uzbek",
+      "version_name": "5.6.8.8",
+      "system_priv": true
+    },
+    {
+      "name": "org.codeaurora.snapcam",
+      "version_name": "2.0.002 (458-00)",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.icelandic",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.providers.userdictionary",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.lunarinfo",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.emergency",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.bosnian",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.location.fused",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.deskclock",
+      "version_name": "4.5.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.systemui",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.bluetoothmidiservice",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.confdialer",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.qti.networksetting",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.fastdormancy",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.burmese",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.qti.auth.fidosuiservice",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.malagasy",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.italianch",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.bluetooth",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.qualcomm.timeservice",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.serbianlatin",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.qualcomm.embms",
+      "version_name": "1.0",
+      "system_priv": false
+    },
+    {
+      "name": "com.android.providers.contacts",
+      "version_name": "7.1.1",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.kinyarwanda",
+      "version_name": "5.8.0.0",
+      "system_priv": true
+    },
+    {
+      "name": "com.android.captiveportallogin",
+      "version_name": "7.1.1",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.vietnamsimple",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.vietnam",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.google.android.inputmethod.latin",
+      "version_name": "5.1.18.125495799-preload-arm64-v8a",
+      "system_priv": false
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.cangjie",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    },
+    {
+      "name": "com.lenovo.setupwizard",
+      "version_name": "V3.1.15.20170426",
+      "system_priv": true
+    },
+    {
+      "name": "com.cootek.smartinputv5.language.oem.catalan",
+      "version_name": "5.7.0.8",
+      "system_priv": true
+    }
+  ]
+}

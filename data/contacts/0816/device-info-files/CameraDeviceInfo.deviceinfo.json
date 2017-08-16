@@ -1,0 +1,1760 @@
+{
+  "profile_480p": true,
+  "profile_720p": true,
+  "profile_1080p": true,
+  "profile_cif": true,
+  "profile_qcif": true,
+  "profile_qvga": true,
+  "num_of_camera": 2,
+  "per_camera_info": [
+    {
+      "cameraId": "0",
+      "android_colorCorrection_availableAberrationModes": [
+        1,
+        2
+      ],
+      "android_control_aeAvailableAntibandingModes": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "android_control_aeAvailableModes": [
+        1,
+        2,
+        3
+      ],
+      "android_control_aeAvailableTargetFpsRanges": [
+        {
+          "lower": 15,
+          "upper": 15
+        },
+        {
+          "lower": 20,
+          "upper": 20
+        },
+        {
+          "lower": 24,
+          "upper": 24
+        },
+        {
+          "lower": 7,
+          "upper": 30
+        },
+        {
+          "lower": 30,
+          "upper": 30
+        },
+        {
+          "lower": 15,
+          "upper": 30
+        }
+      ],
+      "android_control_aeCompensationRange": {
+        "lower": -12,
+        "upper": 12
+      },
+      "android_control_aeCompensationStep": {
+        "numerator": 166667,
+        "denominator": 1000000
+      },
+      "android_control_aeLockAvailable": true,
+      "android_control_afAvailableModes": [
+        1,
+        0,
+        0,
+        2,
+        3,
+        4
+      ],
+      "android_control_availableEffects": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "android_control_availableModes": [
+        1,
+        2
+      ],
+      "android_control_availableSceneModes": [
+        4,
+        9,
+        8,
+        10,
+        5,
+        3,
+        13,
+        11,
+        15,
+        12,
+        14,
+        6,
+        7,
+        2,
+        18,
+        1
+      ],
+      "android_control_availableVideoStabilizationModes": [
+        0
+      ],
+      "android_control_awbAvailableModes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "android_control_awbLockAvailable": true,
+      "android_control_maxRegionsAe": 10,
+      "android_control_maxRegionsAf": 1,
+      "android_control_maxRegionsAwb": 0,
+      "android_flash_info_available": true,
+      "android_info_supportedHardwareLevel": 2,
+      "android_jpeg_availableThumbnailSizes": [
+        {
+          "width": 0,
+          "height": 0
+        },
+        {
+          "width": 144,
+          "height": 176
+        },
+        {
+          "width": 176,
+          "height": 144
+        },
+        {
+          "width": 240,
+          "height": 144
+        },
+        {
+          "width": 256,
+          "height": 144
+        },
+        {
+          "width": 240,
+          "height": 160
+        },
+        {
+          "width": 256,
+          "height": 154
+        },
+        {
+          "width": 240,
+          "height": 320
+        },
+        {
+          "width": 320,
+          "height": 240
+        },
+        {
+          "width": 320,
+          "height": 320
+        }
+      ],
+      "android_lens_facing": 1,
+      "android_lens_info_availableFocalLengths": [
+        3.1500000953674316
+      ],
+      "android_noiseReduction_availableNoiseReductionModes": [
+        1,
+        2
+      ],
+      "android_request_availableCapabilities": [
+        0
+      ],
+      "android_request_maxNumInputStreams": 0,
+      "android_request_maxNumOutputProc": 3,
+      "android_request_maxNumOutputProcStalling": 1,
+      "android_request_maxNumOutputRaw": 0,
+      "android_request_partialResultCount": 1,
+      "android_request_pipelineMaxDepth": 6,
+      "android_scaler_availableMaxDigitalZoom": 8.0,
+      "android_scaler_croppingType": 0,
+      "android_scaler_streamConfigurationMap": {
+        "availableStreamConfigurations": [
+          {
+            "format": 256,
+            "width": 3264,
+            "height": 2448,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 3200,
+            "height": 2400,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 2592,
+            "height": 1944,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 2560,
+            "height": 1600,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 2688,
+            "height": 1512,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 2048,
+            "height": 1536,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1920,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1600,
+            "height": 1200,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1440,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1280,
+            "height": 960,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1280,
+            "height": 768,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1280,
+            "height": 720,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1200,
+            "height": 1200,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1024,
+            "height": 768,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 800,
+            "height": 600,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 864,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 800,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 720,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 640,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 640,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 480,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 480,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 480,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 352,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 320,
+            "height": 240,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 240,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 176,
+            "height": 144,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 160,
+            "height": 120,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 144,
+            "height": 176,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 1440,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 1280,
+            "height": 960,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 1280,
+            "height": 800,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 1280,
+            "height": 720,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 864,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 640,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 800,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 720,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 768,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 640,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 480,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 576,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 640,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 480,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 480,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 384,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 352,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 320,
+            "height": 240,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 240,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 240,
+            "height": 160,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 176,
+            "height": 144,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 144,
+            "height": 176,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 160,
+            "height": 120,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 1440,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 1280,
+            "height": 960,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 1280,
+            "height": 800,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 1280,
+            "height": 720,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 864,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 640,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 800,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 720,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 768,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 640,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 480,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 576,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 640,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 480,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 480,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 384,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 352,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 320,
+            "height": 240,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 240,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 240,
+            "height": 160,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 176,
+            "height": 144,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 144,
+            "height": 176,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 160,
+            "height": 120,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 1440,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 1280,
+            "height": 960,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 1280,
+            "height": 800,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 1280,
+            "height": 720,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 864,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 640,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 800,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 720,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 768,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 640,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 480,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 576,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 640,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 480,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 480,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 384,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 352,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 320,
+            "height": 240,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 240,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 240,
+            "height": 160,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 176,
+            "height": 144,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 144,
+            "height": 176,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 160,
+            "height": 120,
+            "input": false,
+            "minFrameDuration": 0
+          }
+        ]
+      },
+      "android_sensor_availableTestPatternModes": [
+        0
+      ],
+      "android_sensor_info_activeArraySize": {
+        "left": 0,
+        "right": 3264,
+        "top": 0,
+        "bottom": 2448
+      },
+      "android_sensor_info_maxFrameDuration": 767309312,
+      "android_sensor_info_physicalSize": {
+        "width": 3.651982545852661,
+        "height": 2.169264078140259
+      },
+      "android_sensor_info_pixelArraySize": {
+        "width": 3264,
+        "height": 2448
+      },
+      "android_sensor_info_timestampSource": 0,
+      "android_sensor_orientation": 90,
+      "android_statistics_info_availableFaceDetectModes": [
+        0,
+        1
+      ],
+      "android_statistics_info_maxFaceCount": 10,
+      "android_sync_maxLatency": -1
+    },
+    {
+      "cameraId": "1",
+      "android_colorCorrection_availableAberrationModes": [
+        1,
+        2
+      ],
+      "android_control_aeAvailableAntibandingModes": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "android_control_aeAvailableModes": [
+        1
+      ],
+      "android_control_aeAvailableTargetFpsRanges": [
+        {
+          "lower": 15,
+          "upper": 15
+        },
+        {
+          "lower": 20,
+          "upper": 20
+        },
+        {
+          "lower": 24,
+          "upper": 24
+        },
+        {
+          "lower": 7,
+          "upper": 30
+        },
+        {
+          "lower": 30,
+          "upper": 30
+        }
+      ],
+      "android_control_aeCompensationRange": {
+        "lower": -12,
+        "upper": 12
+      },
+      "android_control_aeCompensationStep": {
+        "numerator": 166667,
+        "denominator": 1000000
+      },
+      "android_control_aeLockAvailable": true,
+      "android_control_afAvailableModes": [
+        0
+      ],
+      "android_control_availableEffects": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "android_control_availableModes": [
+        1,
+        2
+      ],
+      "android_control_availableSceneModes": [
+        4,
+        9,
+        8,
+        10,
+        5,
+        3,
+        13,
+        11,
+        15,
+        12,
+        14,
+        6,
+        7,
+        2,
+        18,
+        1
+      ],
+      "android_control_availableVideoStabilizationModes": [
+        0
+      ],
+      "android_control_awbAvailableModes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "android_control_awbLockAvailable": true,
+      "android_control_maxRegionsAe": 10,
+      "android_control_maxRegionsAf": 0,
+      "android_control_maxRegionsAwb": 0,
+      "android_flash_info_available": false,
+      "android_info_supportedHardwareLevel": 2,
+      "android_jpeg_availableThumbnailSizes": [
+        {
+          "width": 0,
+          "height": 0
+        },
+        {
+          "width": 144,
+          "height": 176
+        },
+        {
+          "width": 176,
+          "height": 144
+        },
+        {
+          "width": 240,
+          "height": 144
+        },
+        {
+          "width": 256,
+          "height": 144
+        },
+        {
+          "width": 240,
+          "height": 160
+        },
+        {
+          "width": 256,
+          "height": 154
+        },
+        {
+          "width": 240,
+          "height": 320
+        },
+        {
+          "width": 320,
+          "height": 240
+        },
+        {
+          "width": 320,
+          "height": 320
+        }
+      ],
+      "android_lens_facing": 0,
+      "android_lens_info_availableFocalLengths": [
+        2.450000047683716
+      ],
+      "android_lens_info_minimumFocusDistance": 0.0,
+      "android_noiseReduction_availableNoiseReductionModes": [
+        1,
+        2
+      ],
+      "android_request_availableCapabilities": [
+        0
+      ],
+      "android_request_maxNumInputStreams": 0,
+      "android_request_maxNumOutputProc": 3,
+      "android_request_maxNumOutputProcStalling": 1,
+      "android_request_maxNumOutputRaw": 0,
+      "android_request_partialResultCount": 1,
+      "android_request_pipelineMaxDepth": 6,
+      "android_scaler_availableMaxDigitalZoom": 8.0,
+      "android_scaler_croppingType": 0,
+      "android_scaler_streamConfigurationMap": {
+        "availableStreamConfigurations": [
+          {
+            "format": 256,
+            "width": 2592,
+            "height": 1944,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 2560,
+            "height": 1600,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 2048,
+            "height": 1536,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1920,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1600,
+            "height": 1200,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1440,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1280,
+            "height": 960,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1280,
+            "height": 768,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1280,
+            "height": 720,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1200,
+            "height": 1200,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 1024,
+            "height": 768,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 800,
+            "height": 600,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 864,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 800,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 720,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 640,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 640,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 480,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 480,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 480,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 352,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 320,
+            "height": 240,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 240,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 176,
+            "height": 144,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 160,
+            "height": 120,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 256,
+            "width": 144,
+            "height": 176,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 1440,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 1280,
+            "height": 960,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 1280,
+            "height": 800,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 1280,
+            "height": 720,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 864,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 640,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 800,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 720,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 768,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 640,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 480,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 576,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 640,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 480,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 480,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 384,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 352,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 320,
+            "height": 240,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 240,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 240,
+            "height": 160,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 176,
+            "height": 144,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 144,
+            "height": 176,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 34,
+            "width": 160,
+            "height": 120,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 1440,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 1280,
+            "height": 960,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 1280,
+            "height": 800,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 1280,
+            "height": 720,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 864,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 640,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 800,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 720,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 768,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 640,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 480,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 576,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 640,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 480,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 480,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 384,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 352,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 320,
+            "height": 240,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 240,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 240,
+            "height": 160,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 176,
+            "height": 144,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 144,
+            "height": 176,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 35,
+            "width": 160,
+            "height": 120,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 1440,
+            "height": 1080,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 1280,
+            "height": 960,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 1280,
+            "height": 800,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 1280,
+            "height": 720,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 864,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 640,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 800,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 720,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 768,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 640,
+            "height": 480,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 480,
+            "height": 640,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 576,
+            "height": 432,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 640,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 480,
+            "height": 360,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 480,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 384,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 352,
+            "height": 288,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 320,
+            "height": 240,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 240,
+            "height": 320,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 240,
+            "height": 160,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 176,
+            "height": 144,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 144,
+            "height": 176,
+            "input": false,
+            "minFrameDuration": 0
+          },
+          {
+            "format": 842094169,
+            "width": 160,
+            "height": 120,
+            "input": false,
+            "minFrameDuration": 0
+          }
+        ]
+      },
+      "android_sensor_availableTestPatternModes": [
+        0
+      ],
+      "android_sensor_info_activeArraySize": {
+        "left": 0,
+        "right": 2592,
+        "top": 0,
+        "bottom": 1944
+      },
+      "android_sensor_info_maxFrameDuration": 557758208,
+      "android_sensor_info_physicalSize": {
+        "width": 3.6225016117095947,
+        "height": 2.6937978267669678
+      },
+      "android_sensor_info_pixelArraySize": {
+        "width": 2592,
+        "height": 1944
+      },
+      "android_sensor_info_timestampSource": 0,
+      "android_sensor_orientation": 270,
+      "android_statistics_info_availableFaceDetectModes": [
+        0,
+        1
+      ],
+      "android_statistics_info_maxFaceCount": 10,
+      "android_sync_maxLatency": -1
+    }
+  ]
+}

@@ -1,0 +1,970 @@
+{
+  "media_codec_info": [
+    {
+      "name": "OMX.google.mp3.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.amrnb.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/3gpp"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.amrwb.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/amr-wb"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.aac.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/mp4a-latm",
+          "codec_profile_level": [
+            {
+              "level": 0,
+              "profile": 2
+            },
+            {
+              "level": 0,
+              "profile": 5
+            },
+            {
+              "level": 0,
+              "profile": 29
+            },
+            {
+              "level": 0,
+              "profile": 23
+            },
+            {
+              "level": 0,
+              "profile": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.g711.alaw.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/g711-alaw"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.g711.mlaw.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/g711-mlaw"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.vorbis.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/vorbis"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.opus.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/opus"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.raw.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/raw"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.aac.encoder",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "audio/mp4a-latm",
+          "codec_profile_level": [
+            {
+              "level": 0,
+              "profile": 2
+            },
+            {
+              "level": 0,
+              "profile": 5
+            },
+            {
+              "level": 0,
+              "profile": 29
+            },
+            {
+              "level": 0,
+              "profile": 23
+            },
+            {
+              "level": 0,
+              "profile": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.amrnb.encoder",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "audio/3gpp"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.amrwb.encoder",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "audio/amr-wb"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.flac.encoder",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "audio/flac"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.gsm.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/gsm"
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.encoder.hevc",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/hevc",
+          "codec_profile_level": [
+            {
+              "level": 65536,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.encoder.avc",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/avc",
+          "codec_profile_level": [
+            {
+              "level": 65536,
+              "profile": 1
+            },
+            {
+              "level": 65536,
+              "profile": 2
+            },
+            {
+              "level": 65536,
+              "profile": 8
+            },
+            {
+              "level": 65536,
+              "profile": 2130706433
+            },
+            {
+              "level": 65536,
+              "profile": 2130706434
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.encoder.mpeg4",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/mp4v-es",
+          "codec_profile_level": [
+            {
+              "level": 128,
+              "profile": 1
+            },
+            {
+              "level": 128,
+              "profile": 32768
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.encoder.h263",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/3gpp",
+          "codec_profile_level": [
+            {
+              "level": 128,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.encoder.vp8",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/x-vnd.on2.vp8",
+          "codec_profile_level": [
+            {
+              "level": 1,
+              "profile": 1
+            },
+            {
+              "level": 2,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qti.audio.decoder.flac",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/flac"
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.avc",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/avc",
+          "codec_profile_level": [
+            {
+              "level": 32768,
+              "profile": 1
+            },
+            {
+              "level": 32768,
+              "profile": 2
+            },
+            {
+              "level": 32768,
+              "profile": 8
+            },
+            {
+              "level": 32768,
+              "profile": 2130706433
+            },
+            {
+              "level": 32768,
+              "profile": 2130706434
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.mpeg2",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/mpeg2",
+          "codec_profile_level": [
+            {
+              "level": 3,
+              "profile": 0
+            },
+            {
+              "level": 3,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.mpeg4",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/mp4v-es",
+          "codec_profile_level": [
+            {
+              "level": 128,
+              "profile": 1
+            },
+            {
+              "level": 128,
+              "profile": 32768
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.h263",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/3gpp",
+          "codec_profile_level": [
+            {
+              "level": 128,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.wmv",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/x-ms-wmv"
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.vc1",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/wvc1"
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.divx",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/divx"
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.divx311",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/divx311"
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.divx4",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/divx4"
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.vp8",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/x-vnd.on2.vp8"
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.vp9",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/x-vnd.on2.vp9",
+          "codec_profile_level": [
+            {
+              "level": 512,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.qcom.video.decoder.hevc",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/hevc",
+          "codec_profile_level": [
+            {
+              "level": 65536,
+              "profile": 1
+            },
+            {
+              "level": 65536,
+              "profile": 2
+            },
+            {
+              "level": 65536,
+              "profile": 4096
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.dolby.ac3.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/ac3"
+        }
+      ]
+    },
+    {
+      "name": "OMX.dolby.eac3.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/eac3"
+        }
+      ]
+    },
+    {
+      "name": "OMX.dolby.eac3_joc.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "audio/eac3-joc"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.mpeg4.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/mp4v-es",
+          "codec_profile_level": [
+            {
+              "level": 1,
+              "profile": 1
+            },
+            {
+              "level": 2,
+              "profile": 1
+            },
+            {
+              "level": 4,
+              "profile": 1
+            },
+            {
+              "level": 8,
+              "profile": 1
+            },
+            {
+              "level": 16,
+              "profile": 1
+            }
+          ]
+        },
+        {
+          "type": "video/mp4v-esdp",
+          "codec_profile_level": [
+            {
+              "level": 1,
+              "profile": 1
+            },
+            {
+              "level": 2,
+              "profile": 1
+            },
+            {
+              "level": 4,
+              "profile": 1
+            },
+            {
+              "level": 8,
+              "profile": 1
+            },
+            {
+              "level": 16,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.h263.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/3gpp",
+          "codec_profile_level": [
+            {
+              "level": 1,
+              "profile": 1
+            },
+            {
+              "level": 2,
+              "profile": 1
+            },
+            {
+              "level": 4,
+              "profile": 1
+            },
+            {
+              "level": 16,
+              "profile": 1
+            },
+            {
+              "level": 1,
+              "profile": 8
+            },
+            {
+              "level": 2,
+              "profile": 8
+            },
+            {
+              "level": 4,
+              "profile": 8
+            },
+            {
+              "level": 16,
+              "profile": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.h264.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/avc",
+          "codec_profile_level": [
+            {
+              "level": 1,
+              "profile": 1
+            },
+            {
+              "level": 2,
+              "profile": 1
+            },
+            {
+              "level": 4,
+              "profile": 1
+            },
+            {
+              "level": 8,
+              "profile": 1
+            },
+            {
+              "level": 16,
+              "profile": 1
+            },
+            {
+              "level": 32,
+              "profile": 1
+            },
+            {
+              "level": 64,
+              "profile": 1
+            },
+            {
+              "level": 128,
+              "profile": 1
+            },
+            {
+              "level": 256,
+              "profile": 1
+            },
+            {
+              "level": 512,
+              "profile": 1
+            },
+            {
+              "level": 1024,
+              "profile": 1
+            },
+            {
+              "level": 2048,
+              "profile": 1
+            },
+            {
+              "level": 4096,
+              "profile": 1
+            },
+            {
+              "level": 8192,
+              "profile": 1
+            },
+            {
+              "level": 16384,
+              "profile": 1
+            },
+            {
+              "level": 32768,
+              "profile": 1
+            },
+            {
+              "level": 65536,
+              "profile": 1
+            },
+            {
+              "level": 1,
+              "profile": 2
+            },
+            {
+              "level": 2,
+              "profile": 2
+            },
+            {
+              "level": 4,
+              "profile": 2
+            },
+            {
+              "level": 8,
+              "profile": 2
+            },
+            {
+              "level": 16,
+              "profile": 2
+            },
+            {
+              "level": 32,
+              "profile": 2
+            },
+            {
+              "level": 64,
+              "profile": 2
+            },
+            {
+              "level": 128,
+              "profile": 2
+            },
+            {
+              "level": 256,
+              "profile": 2
+            },
+            {
+              "level": 512,
+              "profile": 2
+            },
+            {
+              "level": 1024,
+              "profile": 2
+            },
+            {
+              "level": 2048,
+              "profile": 2
+            },
+            {
+              "level": 4096,
+              "profile": 2
+            },
+            {
+              "level": 8192,
+              "profile": 2
+            },
+            {
+              "level": 16384,
+              "profile": 2
+            },
+            {
+              "level": 32768,
+              "profile": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.hevc.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/hevc",
+          "codec_profile_level": [
+            {
+              "level": 1,
+              "profile": 1
+            },
+            {
+              "level": 4,
+              "profile": 1
+            },
+            {
+              "level": 16,
+              "profile": 1
+            },
+            {
+              "level": 64,
+              "profile": 1
+            },
+            {
+              "level": 256,
+              "profile": 1
+            },
+            {
+              "level": 1024,
+              "profile": 1
+            },
+            {
+              "level": 4096,
+              "profile": 1
+            },
+            {
+              "level": 16384,
+              "profile": 1
+            },
+            {
+              "level": 65536,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.vp8.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/x-vnd.on2.vp8"
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.vp9.decoder",
+      "encoder": false,
+      "supported_type": [
+        {
+          "type": "video/x-vnd.on2.vp9",
+          "codec_profile_level": [
+            {
+              "level": 256,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.h263.encoder",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/3gpp",
+          "codec_profile_level": [
+            {
+              "level": 16,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.h264.encoder",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/avc",
+          "codec_profile_level": [
+            {
+              "level": 1,
+              "profile": 1
+            },
+            {
+              "level": 2,
+              "profile": 1
+            },
+            {
+              "level": 4,
+              "profile": 1
+            },
+            {
+              "level": 8,
+              "profile": 1
+            },
+            {
+              "level": 16,
+              "profile": 1
+            },
+            {
+              "level": 32,
+              "profile": 1
+            },
+            {
+              "level": 64,
+              "profile": 1
+            },
+            {
+              "level": 128,
+              "profile": 1
+            },
+            {
+              "level": 256,
+              "profile": 1
+            },
+            {
+              "level": 512,
+              "profile": 1
+            },
+            {
+              "level": 1024,
+              "profile": 1
+            },
+            {
+              "level": 2048,
+              "profile": 1
+            },
+            {
+              "level": 4096,
+              "profile": 1
+            },
+            {
+              "level": 1,
+              "profile": 2
+            },
+            {
+              "level": 2,
+              "profile": 2
+            },
+            {
+              "level": 4,
+              "profile": 2
+            },
+            {
+              "level": 8,
+              "profile": 2
+            },
+            {
+              "level": 16,
+              "profile": 2
+            },
+            {
+              "level": 32,
+              "profile": 2
+            },
+            {
+              "level": 64,
+              "profile": 2
+            },
+            {
+              "level": 128,
+              "profile": 2
+            },
+            {
+              "level": 256,
+              "profile": 2
+            },
+            {
+              "level": 512,
+              "profile": 2
+            },
+            {
+              "level": 1024,
+              "profile": 2
+            },
+            {
+              "level": 2048,
+              "profile": 2
+            },
+            {
+              "level": 4096,
+              "profile": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.mpeg4.encoder",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/mp4v-es",
+          "codec_profile_level": [
+            {
+              "level": 8,
+              "profile": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OMX.google.vp8.encoder",
+      "encoder": true,
+      "supported_type": [
+        {
+          "type": "video/x-vnd.on2.vp8",
+          "codec_profile_level": [
+            {
+              "level": 1,
+              "profile": 1
+            },
+            {
+              "level": 2,
+              "profile": 1
+            },
+            {
+              "level": 4,
+              "profile": 1
+            },
+            {
+              "level": 8,
+              "profile": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
